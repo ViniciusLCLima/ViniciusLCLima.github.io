@@ -2231,6 +2231,8 @@ input, select, textarea {
 
 .row .project-card{
 	margin-bottom:1.8em;
+	display: flex;
+    flex-direction: column;
 }
 
 	.row .project-card .btns-div {
@@ -2239,6 +2241,7 @@ input, select, textarea {
 		justify-content: center;
 	}
 	.row .project-card>p{
+		margin-top:auto;
 		margin-bottom:0.7em;
 		height: 7em
 	}
