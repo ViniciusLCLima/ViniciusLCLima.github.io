@@ -188,6 +188,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: center;
 	}
 
 		.row > * {
@@ -1158,7 +1159,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 764px) {
 
 			.row {
 				display: flex;
@@ -2262,9 +2263,11 @@ input, select, textarea {
 					vertical-align: middle;
 				}
 
-					
-
-
+				@media (765px < width < 846px){
+					.row .project-card>p{
+						height:8.7em
+					}
+				}
 
 				@media screen and (max-width: 920px) {
 
